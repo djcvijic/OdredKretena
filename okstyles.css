@@ -1,4 +1,6 @@
-body, td { font-family:"Palatino Linotype", "Book Antiqua", Palatino, Serif; }
+body, td {
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, Serif;
+}
 
 img {
 border: none;
@@ -130,7 +132,7 @@ font-weight:bold;
 }
 h3.blog {font-size:1.6em;}
 h4.blog {font-size:0.75em;}
-p.blog {font-size:1em;color:#000099;}
+p.blog {font-size:1.125em;color:#000099;}
 hr.blog {
 border-top:1px dashed #666666;
 border-bottom:1px solid #666666;
@@ -198,6 +200,7 @@ border-width:0px;
 text-align:center;
 font-weight:bold;
 font-family:"Courier New", Courier, monospace;
+font-size:1.125em;
 writing-mode: tb-rl;
 -webkit-transform: rotate(90deg);	
 -moz-transform: rotate(90deg);
@@ -231,6 +234,6 @@ margin-right:38%;
 <!--
 a:link {color: #ff4411; text-decoration: underline; }
 a:active {color: #990000; text-decoration: none; }
-a:visited {color: #990000; text-decoration: underline; }
+a:visited {color: #ff4411; text-decoration: underline; }
 a:hover {color: #ff4411; text-decoration: none; }
 -->

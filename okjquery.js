@@ -158,12 +158,14 @@ function kretenizamTooltip(){
 
 function gifLoading(myGif){
  var offset=$(myGif).offset();
+ //$('#test').append("offset "+offset.top+" "+offset.left+"\n");
  $(myGif).css('opacity','0.25');
  var spinner=$('.spinner');
  $(spinner).css({'top':offset.top,'left':offset.left});
  $(myGif).load(function(){
   var spinnerOffset=$(spinner).offset();
-  if ((offset.top==spinnerOffset.top)&&(offset.left==spinnerOffset.left)) {
+  //$('#test').append("spinneroffset "+spinnerOffset.top+" "+spinnerOffset.left+"\n");
+  if ((Math.abs(offset.top-spinnerOffset.top)<=1)&&(Math.abs(offset.left-spinnerOffset.left)<=1)) {
    $(spinner).css({'top':'-500px','left':'0px'});
   }
   $(myGif).css('opacity','1');

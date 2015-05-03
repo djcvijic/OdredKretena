@@ -6,21 +6,6 @@
 <link rel="icon" href="heartagram.gif" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="okstyles.css">
 
-<script type="text/javascript" src="jquery-1.3.2.min.js"></script>
-<script type="text/javascript" src="jquery.asciimation-0.2.0.js"></script>
-<script type="text/javascript" src="okjquery.js"></script>
-
-<script type="text/javascript">
-$(document).ready(function() {
-    $("#animation").asciimation({
-      'frameClass' : 'frame',
-      'fps' : 3
-    });
-    $("#animation").asciimation("start");
-    $(".frame").remove();
-  });
-</script>
-
 </head>
 <body class="water leftLRMargin">
 
@@ -73,7 +58,7 @@ To je sve!<br>
 <span class="frame">:  -' (</span>
 <span class="frame">:  - '(</span>
 
-<br>Dakle, evo kako to mozete uciniti. Pronadjite nekog od top 3 Kretena. Njemu/njoj urucite kes u vrednosti od 300 RSD. Kreten ce vam dati alfanumericku sifru koju treba da ne izgubite.<br> 
+Dakle, evo kako to mozete uciniti. Pronadjite nekog od top 3 Kretena. Njemu/njoj urucite kes u vrednosti od 300 RSD. Kreten ce vam dati alfanumericku sifru koju treba da ne izgubite.<br> 
 Nakon toga, u sledece polje unosite svoj nadimak (ili ime koje vam je dodeljeno na spisku clanova), a u polju ispod njega tu alfanumericku sifru.<br>
 U roku od 48 casova od tada bicete i zvanicno i formalno iskljuceni iz daljih aktivnosti Odreda Kretena. (I dalje sam tuzan).<br>
 
@@ -94,6 +79,21 @@ maxlength="25" size="30"><br>
 <input type="submit" value="Potvrdi :(">
 </div>
 </FORM>
+
+<script type="text/javascript" src="jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="jquery.asciimation-0.2.0.js"></script>
+<script type="text/javascript" src="okjquery.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $("#animation").asciimation({
+      'frameClass' : 'frame',
+      'fps' : 3
+    });
+    $("#animation").asciimation("start");
+    $(".frame").remove();
+  });
+</script>
 
 <!-- --><script type="text/javascript" src="http://static.websimages.com/static/global/js/webs/usersites/escort.js"></script><script type="text/javascript">if(typeof(urchinTracker)=='function'){_uacct="UA-230305-2";_udn="none";_uff=false;urchinTracker();}</script></body>
 </html>
