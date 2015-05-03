@@ -1,0 +1,236 @@
+body, td { font-family:"Palatino Linotype", "Book Antiqua", Palatino, Serif; }
+
+img {
+border: none;
+vertical-align:bottom;
+}
+
+.center, .center div, .center table {
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+}
+
+.water {
+background-color:transparent;
+background-image:url('water-1.jpg');
+background-position:0 0px;
+background-attachment:fixed;
+background-size:512px 512px;
+}
+
+.weed {
+background-image:url('weed.gif');
+background-attachment:fixed;
+text-align:center;
+}
+
+#mainLeftSide { 
+float:left;
+}
+#mainLeftSide>div {
+margin-left:auto;
+margin-right:auto;
+}
+
+.dugme {
+width:132px;
+height:24px;
+}
+span.dugme {
+background-image:url('result.png');
+display:block;
+}
+
+span.dugmeIspod {
+background-image:url('result.png');
+display:block;
+width:132px;
+height:24px;
+}
+
+#mainRightSide {
+position:absolute;
+left:272px;
+width:100%;
+height:100%;
+}
+
+#ajfrejm {
+width:100%;
+height:100%;
+}
+
+#glavnaNaslovi {
+width:480px;
+}
+
+#odredkretena {
+font-size:48px;
+background-image:url("rastaman1-small-1.jpg");
+background-repeat:repeat-x;
+background-position:center center;
+}
+
+#kretenizam {
+font-size:44px;
+font-family:"comic sans ms","comic sans",cursive,sans-serif; 
+}
+
+.akronimKreten td { padding:20px; }
+ul.akronimKreten {
+margin-left:13px;
+text-align:left;
+}
+p.akronimKreten {
+font-size:5em;
+margin-bottom:0.5em;
+}
+
+tr.topAligned { vertical-align:text-top; }
+
+.bold, .naslov { font-weight:bold; }
+
+.naslov {
+font-size:2em;
+text-decoration:underline;
+text-align:center;
+background-image:none;
+}
+
+.leftLRMargin {
+text-align:left;
+margin-left:6%;
+margin-right:3%;
+}
+
+.chlanovi {
+border:2px outset #666699;
+}
+td.chlanovi {
+width:50%;
+vertical-align:text-top;
+padding:10px;
+}
+
+.formRight {
+margin-right:25%;
+text-align:right;
+}
+
+.epi {background-image:url("background.gif");}
+
+.link {font-size:1.2em;;}
+
+.left {text-align:left;}
+
+.blog {
+font-family:"Courier New", Courier, monospace;
+font-weight:bold;
+}
+h3.blog {font-size:1.6em;}
+h4.blog {font-size:0.75em;}
+p.blog {font-size:1em;color:#000099;}
+hr.blog {
+border-top:1px dashed #666666;
+border-bottom:1px solid #666666;
+height:0.125em;
+}
+
+div.blogDiv {
+width:80%;
+}
+
+.spinner {
+position:absolute;
+top:-500px;
+left:0px;
+width:50px;
+height:50px;
+}
+
+.linkPreview {
+z-index:1;
+background-color:transparent;
+opacity:0.75;
+}
+.linkPreview+span{
+z-index:-1;
+position:relative;
+top:0px;
+left:0px;
+color:#ccccff;
+background-color:#000000;
+opacity:0.75;
+}
+
+a.browser {
+position:absolute;
+top:256px;
+left:-256px;
+border-style:ridge;
+border-color:#ff3300;
+border-width:0px;
+}
+
+#tooltip {
+    position:absolute;
+    z-index:9999;
+    color:#fff;
+    font-size:0.7em;
+    width:180px;    
+    font-family:Helvetica,sans-serif;
+}
+#tooltip .tipHeader {
+    height:0.5em;
+    background:url(images/tipHeader.gif) no-repeat;
+}
+#tooltip .tipBody {
+    background-color:#000;
+    padding:5px 5px 5px 15px;
+}
+#tooltip .tipFooter {
+    height:0.5em;
+    background:url(images/tipFooter.gif) no-repeat;
+}
+
+#animation pre {
+text-align:center;
+font-weight:bold;
+font-family:"Courier New", Courier, monospace;
+writing-mode: tb-rl;
+-webkit-transform: rotate(90deg);	
+-moz-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+-o-transform: rotate(90deg);
+transform: rotate(90deg);
+}
+#animation {
+margin-left:auto;
+margin-right:38%;
+}
+
+#toTop {
+	width:200px;
+        border:1px solid #999;
+        background:#ccf;
+        text-align:center;
+        padding:5px;
+        position:fixed; /* this is the magic */
+        bottom:50px; /* together with this to put the div at the bottom*/
+        left:30px;
+        right:auto;
+        cursor:pointer;
+        display:none;
+        color:#333;
+        font-family:helvetica,verdana,sans-serif;
+        font-size:0.8em;
+        z-index:2;
+}
+
+<!--
+a:link {color: #ff4411; text-decoration: underline; }
+a:active {color: #990000; text-decoration: none; }
+a:visited {color: #990000; text-decoration: underline; }
+a:hover {color: #ff4411; text-decoration: none; }
+-->
